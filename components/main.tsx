@@ -14,7 +14,7 @@ export function Main({ name }: MainProps) {
   const [data, setData] = useState('')
 
   return (
-    <div className="flex flex-col items-center justify-center w-full h-screen p-4">
+    <div className="flex flex-col items-center justify-center w-full max-w-[360px] min-w-[240px] min-h-[160px] p-4 mx-auto">
       <h1 className="text-2xl font-bold text-center">
         Welcome to your <Link href="https://www.plasmo.com">Plasmo</Link> {name}
         !
