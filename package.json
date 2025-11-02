@@ -14,7 +14,6 @@
     "build:next": "next build"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.525.0",
@@ -29,16 +28,16 @@
     "@ianvs/prettier-plugin-sort-imports": "4.4.2",
     "@plasmohq/rps": "^1.8.7",
     "@plasmohq/storage": "^1.15.0",
-    "@tailwindcss/cli": "^4.0.0",
-    "@tailwindcss/vite": "^4.0.0",
     "@types/chrome": "0.0.328",
     "@types/node": "24.0.7",
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",
     "autoprefixer": "^10.4.21",
+    "patch-package": "^8.0.1",
     "postcss": "^8.5.6",
+    "postinstall-postinstall": "^2.1.0",
     "prettier": "3.6.2",
-    "tailwindcss": "^4.1.11",
+    "tailwindcss": "^3.4.10",
     "typescript": "5.8.3"
   },
   "manifest": {

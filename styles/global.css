@@ -1,4 +1,6 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @custom-variant dark (&:is(.dark *));
 
@@ -139,4 +141,4 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
-} 
+}
